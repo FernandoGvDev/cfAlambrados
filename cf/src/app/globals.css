@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
