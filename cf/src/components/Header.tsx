@@ -10,13 +10,14 @@ export default function Header() {
 
   return (
     <header className="relative z-50 bg-black text-white">
-      <div className="max-w-7xl mx-auto flex items-center justify-between h-20 px-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-between h-20 ">
         
         {/* LOGO */}
         <div className="relative">
           <div
             className="
-              bg-zinc-900
+              bg-amber-800
+              border-2 border-black
               h-24
               px-6
               flex items-center
@@ -25,7 +26,7 @@ export default function Header() {
             "
           >
             <Image
-              src="/images/logo.png"
+              src="/img/logo.png"
               alt="Logo da empresa"
               width={140}
               height={60}
@@ -52,6 +53,8 @@ export default function Header() {
               px-5 py-2
               text-sm font-semibold
               transition
+              mr-13
+              ml-5
             "
           >
             <MessageCircle size={18} />
@@ -62,7 +65,7 @@ export default function Header() {
         {/* BOTÃO MOBILE */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden"
+          className="md:hidden mr-4"
         >
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
