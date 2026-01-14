@@ -31,7 +31,7 @@ export default function CTA() {
         </motion.p>
 
         <motion.a
-          href="https://wa.me/5500000000000"
+          href="https://wa.me/555197119075"
           target="_blank"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}

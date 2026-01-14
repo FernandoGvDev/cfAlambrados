@@ -2,7 +2,7 @@ import { Ruler, ShieldCheck, MessageCircle, HardHat } from "lucide-react";
 
 export default function AboutCF() {
   return (
-    <section className="bg-zinc-100 text-zinc-900 py-24">
+    <section className="bg-[#90510e] text-white py-24 border-t-4 border-amber-700">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* TÍTULO + TEXTO */}
@@ -11,7 +11,7 @@ export default function AboutCF() {
             CF Cercas e Alambrados
           </h2>
 
-          <p className="text-zinc-700 leading-relaxed">
+          <p className="text-zinc-100 leading-relaxed">
             A CF é especializada na fabricação e instalação de cercas, alambrados,
             portões e estruturas sob medida. Trabalhamos com foco em resistência,
             funcionalidade e acabamento, sempre respeitando a necessidade de cada
@@ -75,7 +75,7 @@ export default function AboutCF() {
 
         {/* FRASE FINAL */}
         <div className="mt-16 border-l-4 border-amber-700 pl-6">
-          <p className="text-lg font-medium text-zinc-800">
+          <p className="text-lg font-medium text-zinc-200">
             Mais do que cercar espaços, entregamos segurança e confiança.
           </p>
         </div>

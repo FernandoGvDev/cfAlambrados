@@ -7,10 +7,10 @@ import { Fence, DoorOpen, Grid } from "lucide-react";
 const services = [
   {
     id: "cercas",
-    title: "Cercas de Cuiu",
+    title: "Cercas",
     icon: Fence,
     text:
-      "As cercas de cuiu são ideais para áreas rurais e propriedades que exigem resistência e durabilidade. Trabalhamos com materiais de qualidade e instalação firme, garantindo segurança e longa vida útil.",
+      "As cercas são ideais para áreas rurais e propriedades que exigem resistência e durabilidade. Trabalhamos com materiais de qualidade e instalação firme, garantindo segurança e longa vida útil.",
     image: "/img/cercas.jpeg",
   },
   {
@@ -57,9 +57,9 @@ export default function Services() {
                 href={`#${service.id}`}
                 className="
                   group
-                  border border-zinc-200
+                  border border-amber-700
                   p-6
-                  hover:border-amber-700
+                  hover:border-green-700
                   transition
                 "
               >
